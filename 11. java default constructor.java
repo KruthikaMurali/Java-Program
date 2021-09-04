@@ -4,4 +4,3 @@ public class Bike1{
    	Bike1 b=new Bike1();  
     }
 }
-© 2021 GitHub, I
