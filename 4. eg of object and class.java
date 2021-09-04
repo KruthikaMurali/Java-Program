@@ -15,4 +15,3 @@ public class Rectangle{
 	  r2.calculateArea();  
    }
 }
-
