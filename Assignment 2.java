@@ -1,11 +1,11 @@
 // Assignment 2 set 1
 // Addition of floating points using inheritance
 class one{
-    float s=7.5f;
+    float s=5.4f;
     
 }
 public class two extends one{
-    float b=2.3f;
+    float b=37.21f;
     public static void main(String args[]){
         two o=new two();
         
@@ -14,7 +14,7 @@ public class two extends one{
     }
 }
 output
-9.8
+42.61
 // Addition of floating numbers using abstract class
 abstract class Sum{  
 	  abstract void add();  
@@ -22,7 +22,7 @@ abstract class Sum{
 	  	 public class MyClass extends Sum{  
 	void add()
       {
-          float s=33.4f,d=23.5f;
+          float s=20.4f,d=31.54f;
           System.out.println(s+d);
           
       }  
@@ -34,7 +34,7 @@ abstract class Sum{
 }  
 
 ouput
-56.9
+51.94
 
 // Adiition of floating numbers using interface
 interface Sum{  
@@ -43,7 +43,7 @@ interface Sum{
 	  
 	public class MyClass implements Sum{  
 	public void add(){
-	    float s=32.43f, t=22.3f;
+	    float s=5.53f, t=22.31f;
 	    System.out.println(s+t);
 	    
 	}  
@@ -54,4 +54,4 @@ interface Sum{
 	 }  
 	}  
 output
-54.73
+27.84
